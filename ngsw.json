@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617883700786,
+  "timestamp": 1617884099159,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.677f7efba032b3e87064.js",
+        "/main.fed49b8d29efd62625f1.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -29,10 +29,10 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/_images/business_meeting_illustration_4116108.jpg",
         "/assets/_images/logo.png",
         "/assets/_images/logo.svg",
-        "/assets/_images/—Pngtree—business office meeting illustration_4116108.jpg",
-        "/assets/_images/—Pngtree—recruiting professionals candidate profiles_5565175.png",
+        "/assets/_images/professionals_candidate_profiles_5565175.png",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -47,10 +47,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/_images/business_meeting_illustration_4116108.jpg": "867098f7898aebc8da802dd193e0f94c06e07bf8",
     "/assets/_images/logo.png": "b77e799b55ded0bda42a4bc9c689858c96c5649d",
     "/assets/_images/logo.svg": "35e2947758ef5693781c0bd270a787ec6d3c52b6",
-    "/assets/_images/—Pngtree—business office meeting illustration_4116108.jpg": "867098f7898aebc8da802dd193e0f94c06e07bf8",
-    "/assets/_images/—Pngtree—recruiting professionals candidate profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
+    "/assets/_images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
     "/assets/icons/icon-128x128.png": "9de840458b7b5e6cfdbe87d57dd0cfa690bc9ac7",
     "/assets/icons/icon-144x144.png": "e301372b2cd5ff926d05465444ec314b1a216bcc",
     "/assets/icons/icon-152x152.png": "517042cd6e44faf2c8c45a21d1a24691f45cd90a",
@@ -60,8 +60,8 @@
     "/assets/icons/icon-72x72.png": "84429e07118f4adaf18fa9d9653e95e4d37b21d5",
     "/assets/icons/icon-96x96.png": "c817cf28149f25afe83ee431f9c2ffceec4a1da8",
     "/favicon.ico": "57f7492e462c90721f8e9be59d8b098006decfb3",
-    "/index.html": "0195cb85126b49b3a40d4239b1b3b98ea9d96ae3",
-    "/main.677f7efba032b3e87064.js": "9c8950253e63b95e6e4132a13c9ef1e5459e9d9a",
+    "/index.html": "02224edd480896363d0c92c2c2d668df4b1cb135",
+    "/main.fed49b8d29efd62625f1.js": "19ab8b3ebd49303b0e3ff24177f81db475b4cc87",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
