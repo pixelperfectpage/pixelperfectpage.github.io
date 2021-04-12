@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618196412014,
+  "timestamp": 1618248237325,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -64,7 +64,7 @@
     "/assets/images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "b3ccae6b60686b4c1aca1029d723425afd836f09",
+    "/index.html": "78cad5d3e0df9759f1d0a0cf57db76f598020bc2",
     "/main.87855e6bc66b17cf53cc.js": "e78ee7602d637659c7a00650e942c7b0bb1b6b27",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
