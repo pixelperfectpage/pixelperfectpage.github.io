@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618372951130,
+  "timestamp": 1618380693345,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.4c2f143ff822d3d3de77.js",
+        "/main.fc46bd08befb8a797b90.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -57,15 +57,15 @@
     "/assets/icons/icon-512x512.png": "63862899322de06da063195359c2e475e8be99d6",
     "/assets/icons/icon-72x72.png": "a4055fbcbec8b22a04113150ffc1a10d4d52c31f",
     "/assets/icons/icon-96x96.png": "00eba81e68e717d44c101ae9719294928df38bb1",
-    "/assets/images/building.png": "f37078d6e41842074a2d5c2ab3f0601b59ea2a0e",
+    "/assets/images/building.png": "d3b0f1c33de9e80170bfab39309438d361129d2d",
     "/assets/images/business_meeting_illustration_4116108.jpg": "867098f7898aebc8da802dd193e0f94c06e07bf8",
     "/assets/images/logo.png": "e72f744f15eefd45905c93daba1c712c9d85bd58",
     "/assets/images/logo.svg": "35e2947758ef5693781c0bd270a787ec6d3c52b6",
     "/assets/images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "df62ab5716e9242e3a00f119cc2502e2aa10cd8f",
-    "/main.4c2f143ff822d3d3de77.js": "36b7290e6603408ad6cdc7e6b5c6f1acdaa4a8c7",
+    "/index.html": "53dd9b93b2b9222a59d5433695ee656cda16d8a1",
+    "/main.fc46bd08befb8a797b90.js": "2f311a6b48bceda667183e4de5ad2c5896fc1ffb",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
