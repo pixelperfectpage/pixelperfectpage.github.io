@@ -4,21 +4,19 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
 <url>
   <loc>https://pixelperfect.page/</loc>
-  <lastmod>2021-04-12T02:31:03+00:00</lastmod>
+  <lastmod>2021-04-17T02:31:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://pixelperfect.page/app/</loc>
-  <lastmod>2021-04-12T02:31:03+00:00</lastmod>
+  <lastmod>2021-04-17T02:31:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://pixelperfect.page/credits/</loc>
-  <lastmod>2021-04-12T02:31:03+00:00</lastmod>
+  <lastmod>2021-04-17T02:31:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
