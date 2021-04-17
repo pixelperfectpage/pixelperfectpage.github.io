@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618592780771,
+  "timestamp": 1618626185260,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.0420fcec617e94912b64.js",
+        "/main.980b06824adea24d4b07.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -64,8 +64,8 @@
     "/assets/images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "7efdabe3012b3f74546de195b8f668cec9d5ada2",
-    "/main.0420fcec617e94912b64.js": "9f7280ce9abd600f4fcab5eba3443738ea74d32b",
+    "/index.html": "5412bee4af4ff8af79a58e340c6fc62c80c5e6bc",
+    "/main.980b06824adea24d4b07.js": "f00648a41cae1aa3269788386b7de7f5ab7965fa",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
