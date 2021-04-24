@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619254867787,
+  "timestamp": 1619278645200,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.2dac6b9a334582561df8.js",
+        "/main.42e32b20157bb991a34b.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -72,8 +72,8 @@
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/assets/images/vuejslogo.png": "555257b8c5e7ecf34ce4f9b952eeaf006adfa339",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "09ce634ac7dc9cade2912d68bf67f238272a3c32",
-    "/main.2dac6b9a334582561df8.js": "ac109a86869b6498cc4d290842a6b3bf386f229c",
+    "/index.html": "f90042f6f3401344871a75db03b1a8066ab44043",
+    "/main.42e32b20157bb991a34b.js": "cb8b0901032d3c9f16383f1684cd9b8514f1f75a",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
