@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619200118512,
+  "timestamp": 1619250546186,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.8bd7f4d355a2f0fb77e6.js",
+        "/main.bc6bda9761d4ca093a3a.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -37,13 +37,16 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/images/_business_meeting_illustration_4116108.jpg",
+        "/assets/images/Webcomponentslogo.png",
+        "/assets/images/angularogo.png",
         "/assets/images/building.png",
         "/assets/images/heroimage.gif",
         "/assets/images/logo.png",
         "/assets/images/logo.svg",
         "/assets/images/professionals_candidate_profiles_5565175.png",
-        "/assets/images/speed.png"
+        "/assets/images/reactlogo.png",
+        "/assets/images/speed.png",
+        "/assets/images/vuejslogo.png"
       ],
       "patterns": []
     }
@@ -58,16 +61,19 @@
     "/assets/icons/icon-512x512.png": "63862899322de06da063195359c2e475e8be99d6",
     "/assets/icons/icon-72x72.png": "a4055fbcbec8b22a04113150ffc1a10d4d52c31f",
     "/assets/icons/icon-96x96.png": "00eba81e68e717d44c101ae9719294928df38bb1",
-    "/assets/images/_business_meeting_illustration_4116108.jpg": "867098f7898aebc8da802dd193e0f94c06e07bf8",
+    "/assets/images/Webcomponentslogo.png": "d30149111582069379f3d6adb9a4429ef9b8a7d0",
+    "/assets/images/angularogo.png": "067bda929b3b9613b5bb8f1f799ceb47aea14a78",
     "/assets/images/building.png": "d3b0f1c33de9e80170bfab39309438d361129d2d",
     "/assets/images/heroimage.gif": "e225201ad648ede2e2edd1fa4460fade7ddaba54",
     "/assets/images/logo.png": "e72f744f15eefd45905c93daba1c712c9d85bd58",
     "/assets/images/logo.svg": "35e2947758ef5693781c0bd270a787ec6d3c52b6",
     "/assets/images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
+    "/assets/images/reactlogo.png": "37b9c010c685c1da52f26fe1b6d3eb1c3cf84702",
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
+    "/assets/images/vuejslogo.png": "555257b8c5e7ecf34ce4f9b952eeaf006adfa339",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "013a9978b3bb4d785c2f791af9a13dc31271219e",
-    "/main.8bd7f4d355a2f0fb77e6.js": "09ef5855e3a1c9f4e912ecaaccac9337f23b0cc8",
+    "/index.html": "9a5dc3d2b2a244729db3f7e436adb46b2e703952",
+    "/main.bc6bda9761d4ca093a3a.js": "48fe508d25eefedf3ffd6a7cfd71c7247d6d474f",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
