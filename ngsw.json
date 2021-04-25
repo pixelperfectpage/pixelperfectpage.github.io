@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619347329872,
+  "timestamp": 1619364360395,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -72,7 +72,7 @@
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/assets/images/vuejslogo.png": "555257b8c5e7ecf34ce4f9b952eeaf006adfa339",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "215c9577a1131a55a0c8b91f98f75916dc9de720",
+    "/index.html": "2899a124b396d8ea7e77458f3006d42b26fdedf8",
     "/main.00a69e9b983771da2329.js": "4cc399e45d026a9bb1e2cdd02c2283126be03708",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
