@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620464969350,
+  "timestamp": 1620474464151,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.ec12a028a5dadd045973.js",
+        "/main.08d147358d9cf7b48464.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -46,7 +46,13 @@
         "/assets/images/professionals_candidate_profiles_5565175.png",
         "/assets/images/reactlogo.png",
         "/assets/images/speed.png",
-        "/assets/images/vuejslogo.png"
+        "/assets/images/vuejslogo.png",
+        "/assets/templates/2 Column.json",
+        "/assets/templates/2x1 Column.json",
+        "/assets/templates/3 Column.json",
+        "/assets/templates/Corona Card.json",
+        "/assets/templates/Design System.json",
+        "/assets/templates/Design Systems.json"
       ],
       "patterns": []
     }
@@ -71,9 +77,15 @@
     "/assets/images/reactlogo.png": "37b9c010c685c1da52f26fe1b6d3eb1c3cf84702",
     "/assets/images/speed.png": "1b3a05d066beb9047ce13c9aff8e62580cc228aa",
     "/assets/images/vuejslogo.png": "555257b8c5e7ecf34ce4f9b952eeaf006adfa339",
+    "/assets/templates/2 Column.json": "b62e8a43aee8e1066c39dad525080b137a4a98da",
+    "/assets/templates/2x1 Column.json": "05d0faa78d459336966c65bbe52b239da4a712b8",
+    "/assets/templates/3 Column.json": "33eb409157327f58e6be482e4f70e03947daed69",
+    "/assets/templates/Corona Card.json": "84062321be39efe54720a0ffda61b65496216a53",
+    "/assets/templates/Design System.json": "3431d14538852293374dbb450913cd3b1f633ad2",
+    "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "9bcca267e075a0b29a35a2de285f7ec7862f7c7e",
-    "/main.ec12a028a5dadd045973.js": "d7420ae2ec6988a0dd260291fe94ffe5c89ef86e",
+    "/index.html": "18b70e5ada9f5ac69d288f00c365c87010b473a0",
+    "/main.08d147358d9cf7b48464.js": "5d02555be91fda8836c7e91724e027a467b41dd6",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
