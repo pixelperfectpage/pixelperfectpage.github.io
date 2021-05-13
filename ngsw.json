@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1620884497434,
+  "timestamp": 1620902934092,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.98ed8e27a9f94b5c3866.js",
+        "/main.15ca34d2953aa2d5c271.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
-        "/styles.3f0959f12efb3e28cf4c.css"
+        "/styles.1638382d8955e802f5a4.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,15 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff",
+        "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff",
+        "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff",
+        "/assets/fonts/Recursive_VF_1.043--subset_range_english_basic.woff2",
+        "/assets/fonts/RobotoExtremo-VF-slnt-alpha.woff2",
+        "/assets/fonts/roboto-v20-latin_latin-ext-700.woff2",
+        "/assets/fonts/roboto-v20-latin_latin-ext-700italic.woff2",
+        "/assets/fonts/roboto-v20-latin_latin-ext-italic.woff2",
+        "/assets/fonts/roboto-v20-latin_latin-ext-regular.woff2",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -59,6 +68,15 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff": "764288681bdeba979214ddb75a533a68422ded9b",
+    "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff": "5f337a7c8420e4a64a7dd115b48a81f6d5b94527",
+    "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff": "34bdd4155800580f2e60e5836b2ed431d7179129",
+    "/assets/fonts/Recursive_VF_1.043--subset_range_english_basic.woff2": "34afff9179c45f18e2be84d6634ef9405d5963a2",
+    "/assets/fonts/RobotoExtremo-VF-slnt-alpha.woff2": "eca87a33ee54ec6abd1bed9e2cf66d1789d2c6a7",
+    "/assets/fonts/roboto-v20-latin_latin-ext-700.woff2": "789d6227065d5d9767bc094e8fb384a26009c9de",
+    "/assets/fonts/roboto-v20-latin_latin-ext-700italic.woff2": "3fe826b255684367793abcf498ed620afaa0c3c7",
+    "/assets/fonts/roboto-v20-latin_latin-ext-italic.woff2": "0e8cdb93fe8bf4fc4a20ac5287989bd3e13ffa50",
+    "/assets/fonts/roboto-v20-latin_latin-ext-regular.woff2": "a39cd33a2457d12a3eb61e0841c91b73e4af90ac",
     "/assets/icons/icon-128x128.png": "ec2d405466b0cbad17aa42aefb6542811e530232",
     "/assets/icons/icon-144x144.png": "7065928737f028a30874ed3707a4465abefb4278",
     "/assets/icons/icon-152x152.png": "9663520455f4ef23b560d56aee4d13a76cf17f82",
@@ -84,12 +102,12 @@
     "/assets/templates/Design System.json": "3431d14538852293374dbb450913cd3b1f633ad2",
     "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "424cdf8a98f5b564bdb99049253f578e0b88ab5d",
-    "/main.98ed8e27a9f94b5c3866.js": "02ada1553413284e7f2affc967499b192abc65f4",
+    "/index.html": "4c0b63460507fe72d3fec1e93a210a6c3563d378",
+    "/main.15ca34d2953aa2d5c271.js": "b4b74084df70109c5d22fcf76558f864b1573b2b",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.3f0959f12efb3e28cf4c.css": "c4ded45fe64a6861dbdeb91253b765ebe59bf05f"
+    "/styles.1638382d8955e802f5a4.css": "ef88dac78727069970f35f714d039d5c81a3966e"
   },
   "navigationUrls": [
     {
