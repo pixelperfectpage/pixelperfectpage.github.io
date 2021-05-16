@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621153575954,
+  "timestamp": 1621158462222,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.b51b417086561270f9b7.js",
+        "/main.02de8238a5b7ccd2dff3.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -29,7 +29,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/audio/horse.mp3",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff",
@@ -62,15 +61,13 @@
         "/assets/templates/3 Column.json",
         "/assets/templates/Corona Card.json",
         "/assets/templates/Design System.json",
-        "/assets/templates/Design Systems.json",
-        "/assets/video/mov_bbb.mp4"
+        "/assets/templates/Design Systems.json"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/audio/horse.mp3": "deef1d4ab68912068f5df4a99fc42d536e920906",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff": "764288681bdeba979214ddb75a533a68422ded9b",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff": "5f337a7c8420e4a64a7dd115b48a81f6d5b94527",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff": "34bdd4155800580f2e60e5836b2ed431d7179129",
@@ -104,10 +101,9 @@
     "/assets/templates/Corona Card.json": "84062321be39efe54720a0ffda61b65496216a53",
     "/assets/templates/Design System.json": "3431d14538852293374dbb450913cd3b1f633ad2",
     "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
-    "/assets/video/mov_bbb.mp4": "438ad3bf24fed937085ffa101ed06cdb23e30007",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "e494a2b0e8600f61eeec9924a6d420592dec61e1",
-    "/main.b51b417086561270f9b7.js": "0683c90190231458b578cdc6751c87a252ec0b73",
+    "/index.html": "b9e0a3f2129c0c235ef29e1e69ca218ab6cf6157",
+    "/main.02de8238a5b7ccd2dff3.js": "d0e33ec84db2eb2738dbd8b251a4d11f524a3576",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
