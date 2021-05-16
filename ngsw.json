@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621181020154,
+  "timestamp": 1621182791718,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.02de8238a5b7ccd2dff3.js",
+        "/main.73ce7ed82615a0443dd3.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
-        "/styles.014e724527b13a243ede.css"
+        "/styles.2aec8d1ae13839f62c28.css"
       ],
       "patterns": []
     },
@@ -30,11 +30,16 @@
       },
       "urls": [
         "/assets/audio/horse.mp3",
+        "/assets/fonts/6NUs8FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChJdt9vIVYX9G37lvd9mvIiQublWIIkfg.woff2",
+        "/assets/fonts/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2RlV9Su1cai.woff",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff",
         "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff",
+        "/assets/fonts/KFOkCnqEu92Fr1MmgVxFIzIXKMnyrYk.woff2",
+        "/assets/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW-AJi8SJQt.woff",
         "/assets/fonts/Recursive_VF_1.043--subset_range_english_basic.woff2",
         "/assets/fonts/RobotoExtremo-VF-slnt-alpha.woff2",
+        "/assets/fonts/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZz5Kmgq3sw.woff",
         "/assets/fonts/roboto-v20-latin_latin-ext-700.woff2",
         "/assets/fonts/roboto-v20-latin_latin-ext-700italic.woff2",
         "/assets/fonts/roboto-v20-latin_latin-ext-italic.woff2",
@@ -71,11 +76,16 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/audio/horse.mp3": "deef1d4ab68912068f5df4a99fc42d536e920906",
+    "/assets/fonts/6NUs8FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChJdt9vIVYX9G37lvd9mvIiQublWIIkfg.woff2": "fb23bf3b11a11aef1999f5bfbd1487b3a05ae372",
+    "/assets/fonts/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2RlV9Su1cai.woff": "f6cc8e573edb6157f788fb6a2da5dbf72a979346",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp6hNX6plRPjLo.woff": "764288681bdeba979214ddb75a533a68422ded9b",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep6hNX6plRPjLo.woff": "5f337a7c8420e4a64a7dd115b48a81f6d5b94527",
     "/assets/fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup6hNX6plRP.woff": "34bdd4155800580f2e60e5836b2ed431d7179129",
+    "/assets/fonts/KFOkCnqEu92Fr1MmgVxFIzIXKMnyrYk.woff2": "4d11ec979beff6935aefb42576d8b7d65de877a6",
+    "/assets/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW-AJi8SJQt.woff": "bdf090792a422094dc0539a69f5d113972385ce2",
     "/assets/fonts/Recursive_VF_1.043--subset_range_english_basic.woff2": "34afff9179c45f18e2be84d6634ef9405d5963a2",
     "/assets/fonts/RobotoExtremo-VF-slnt-alpha.woff2": "eca87a33ee54ec6abd1bed9e2cf66d1789d2c6a7",
+    "/assets/fonts/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZz5Kmgq3sw.woff": "8b0b94bf97efff938d56bcb1bffa1a20b4e164b1",
     "/assets/fonts/roboto-v20-latin_latin-ext-700.woff2": "789d6227065d5d9767bc094e8fb384a26009c9de",
     "/assets/fonts/roboto-v20-latin_latin-ext-700italic.woff2": "3fe826b255684367793abcf498ed620afaa0c3c7",
     "/assets/fonts/roboto-v20-latin_latin-ext-italic.woff2": "0e8cdb93fe8bf4fc4a20ac5287989bd3e13ffa50",
@@ -106,12 +116,12 @@
     "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
     "/assets/video/mov_bbb.mp4": "438ad3bf24fed937085ffa101ed06cdb23e30007",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "b9e0a3f2129c0c235ef29e1e69ca218ab6cf6157",
-    "/main.02de8238a5b7ccd2dff3.js": "d0e33ec84db2eb2738dbd8b251a4d11f524a3576",
+    "/index.html": "4e7cd89f877f67cd6dd722e205d503eba4efc049",
+    "/main.73ce7ed82615a0443dd3.js": "734a9395685faa46bf1ef844165c857c9462d400",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.014e724527b13a243ede.css": "08a54c24c6b5d18e89d47fb114fee4943ca46726"
+    "/styles.2aec8d1ae13839f62c28.css": "dcc0626b7b09f92d83f91d43eb0f24609a1c588e"
   },
   "navigationUrls": [
     {
