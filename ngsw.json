@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621676104366,
+  "timestamp": 1621676350850,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -118,7 +118,7 @@
     "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
     "/assets/video/mov_bbb.mp4": "438ad3bf24fed937085ffa101ed06cdb23e30007",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "167149cc4495cbce9570e8d605d7b72863d28e3f",
+    "/index.html": "d3531086f3fc1d5c91b20230c89fd90be24aa360",
     "/main.4293e58e2f6ad267e54d.js": "2fd17fcfaa63fe31c5a64670f0a5fcf164f4f474",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
