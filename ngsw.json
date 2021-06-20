@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1624171745704,
+  "timestamp": 1624176350570,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.0e5a73b7fa0d25be2e4e.js",
+        "/main.7d30adf875e941b1a8e5.js",
         "/manifest.webmanifest",
         "/polyfills.00096ed7d93ed26ee6df.js",
         "/runtime.7b63b9fd40098a2e8207.js",
@@ -56,6 +56,7 @@
         "/assets/images/angularogo.png",
         "/assets/images/building.png",
         "/assets/images/heroimage.gif",
+        "/assets/images/heroimage.svg",
         "/assets/images/logo.png",
         "/assets/images/logo.svg",
         "/assets/images/professionals_candidate_profiles_5565175.png",
@@ -103,6 +104,7 @@
     "/assets/images/angularogo.png": "067bda929b3b9613b5bb8f1f799ceb47aea14a78",
     "/assets/images/building.png": "d3b0f1c33de9e80170bfab39309438d361129d2d",
     "/assets/images/heroimage.gif": "e225201ad648ede2e2edd1fa4460fade7ddaba54",
+    "/assets/images/heroimage.svg": "4acfc9771ea8de683b9692937595d1d910943255",
     "/assets/images/logo.png": "e72f744f15eefd45905c93daba1c712c9d85bd58",
     "/assets/images/logo.svg": "35e2947758ef5693781c0bd270a787ec6d3c52b6",
     "/assets/images/professionals_candidate_profiles_5565175.png": "48c7d1c189897fe54f2fd956edb97545a2d08cc4",
@@ -118,8 +120,8 @@
     "/assets/templates/Design Systems.json": "2235f5b692625a0b8316b96f188cb61bbe5c2dc4",
     "/assets/video/mov_bbb.mp4": "438ad3bf24fed937085ffa101ed06cdb23e30007",
     "/favicon.ico": "f0159020383137e26314c0d3aabb56f096a345fc",
-    "/index.html": "6d85ae69425f1b712f7975944b96ea68d6139f75",
-    "/main.0e5a73b7fa0d25be2e4e.js": "16c159f30264c1c2e71e7a68a06d68867a356cd4",
+    "/index.html": "e5661f45fb40f123a2760f85b247f10ed71c84b7",
+    "/main.7d30adf875e941b1a8e5.js": "91687b6ff34e51ff121001af94403c87e3fe17fe",
     "/manifest.webmanifest": "740c9125829e9d9a9b595784d9c0c535669333cc",
     "/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
