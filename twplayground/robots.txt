@@ -1,0 +1,19 @@
+# robots.txt for TailwindCSS Online Playground
+# https://example.com/robots.txt
+
+# -----------------------------
+# Global directives
+# -----------------------------
+
+User-agent: *
+# Allow all crawlers to index public content
+Allow: /
+
+# Disallow internal or non-SEO paths
+Disallow: /scripts/
+
+# Optional: prevent crawling of URL parameters (if dynamic content uses ?)
+# Disallow: /*?*
+
+# -----------------------------
+# Sitemaps
