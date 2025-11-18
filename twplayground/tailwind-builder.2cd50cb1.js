@@ -2,11 +2,13 @@ const propertyConfig = {
     "LAYOUT": {
         "type": "h",
         "title": "LAYOUT",
+        "docLink": "LAYOUT",
         "list": []
     },
     "aspect-ratio": {
         "type": "x",
         "title": "aspect-ratio",
+        "docLink": "aspect-ratio",
         "list": [
             "aspect-auto",
             "aspect-square",
@@ -42,6 +44,7 @@ const propertyConfig = {
     "columns": {
         "type": "x",
         "title": "columns",
+        "docLink": "columns",
         "list": [
             "columns-1",
             "columns-2",
@@ -74,6 +77,7 @@ const propertyConfig = {
     "break-after": {
         "type": "x",
         "title": "break-after",
+        "docLink": "break-after",
         "list": [
             "break-after-auto",
             "break-after-avoid",
@@ -88,6 +92,7 @@ const propertyConfig = {
     "break-before": {
         "type": "x",
         "title": "break-before",
+        "docLink": "break-before",
         "list": [
             "break-before-auto",
             "break-before-avoid",
@@ -102,6 +107,7 @@ const propertyConfig = {
     "break-inside": {
         "type": "x",
         "title": "break-inside",
+        "docLink": "break-inside",
         "list": [
             "break-inside-auto",
             "break-inside-avoid",
@@ -112,6 +118,7 @@ const propertyConfig = {
     "box-decoration-break": {
         "type": "x",
         "title": "box-decoration-break",
+        "docLink": "box-decoration-break",
         "list": [
             "box-decoration-clone",
             "box-decoration-slice"
@@ -120,6 +127,7 @@ const propertyConfig = {
     "box-sizing": {
         "type": "x",
         "title": "box-sizing",
+        "docLink": "box-sizing",
         "list": [
             "box-border",
             "box-content"
@@ -128,6 +136,7 @@ const propertyConfig = {
     "display": {
         "type": "x",
         "title": "display",
+        "docLink": "display",
         "list": [
             "inline",
             "block",
@@ -157,6 +166,7 @@ const propertyConfig = {
     "float": {
         "type": "x",
         "title": "float",
+        "docLink": "float",
         "list": [
             "float-right",
             "float-left",
@@ -168,6 +178,7 @@ const propertyConfig = {
     "clear": {
         "type": "x",
         "title": "clear",
+        "docLink": "clear",
         "list": [
             "clear-left",
             "clear-right",
@@ -180,6 +191,7 @@ const propertyConfig = {
     "isolation": {
         "type": "x",
         "title": "isolation",
+        "docLink": "isolation",
         "list": [
             "isolate",
             "isolation-auto"
@@ -188,6 +200,7 @@ const propertyConfig = {
     "object-fit": {
         "type": "x",
         "title": "object-fit",
+        "docLink": "object-fit",
         "list": [
             "object-contain",
             "object-cover",
@@ -199,6 +212,7 @@ const propertyConfig = {
     "object-position": {
         "type": "x",
         "title": "object-position",
+        "docLink": "object-position",
         "list": [
             "object-bottom",
             "object-center",
@@ -214,34 +228,64 @@ const propertyConfig = {
     "overflow": {
         "type": "x",
         "title": "overflow",
+        "docLink": "overflow",
         "list": [
             "overflow-auto",
-            "overflow-hidden",
             "overflow-clip",
-            "overflow-visible",
+            "overflow-hidden",
             "overflow-scroll",
+            "overflow-visible"
+        ]
+    },
+    "overflow-x": {
+        "type": "x",
+        "title": "overflow-x",
+        "docLink": "overflow",
+        "list": [
             "overflow-x-auto",
-            "overflow-y-auto",
-            "overflow-x-hidden",
-            "overflow-y-hidden",
             "overflow-x-clip",
-            "overflow-y-clip",
-            "overflow-x-visible",
-            "overflow-y-visible",
+            "overflow-x-hidden",
             "overflow-x-scroll",
-            "overflow-y-scroll"
+            "overflow-x-visible"
+        ]
+    },
+    "overflow-y": {
+        "type": "x",
+        "title": "overflow-y",
+        "docLink": "overflow",
+        "list": [
+            "overflow-y-auto",
+            "overflow-y-clip",
+            "overflow-y-hidden",
+            "overflow-y-scroll",
+            "overflow-y-visible"
         ]
     },
     "overscroll-behavior": {
         "type": "x",
         "title": "overscroll-behavior",
+        "docLink": "overscroll-behavior",
         "list": [
             "overscroll-auto",
             "overscroll-contain",
-            "overscroll-none",
+            "overscroll-none"
+        ]
+    },
+    "overscroll-behavior-x": {
+        "type": "x",
+        "title": "overscroll-behavior-x",
+        "docLink": "overscroll-behavior",
+        "list": [
             "overscroll-x-auto",
             "overscroll-x-contain",
-            "overscroll-x-none",
+            "overscroll-x-none"
+        ]
+    },
+    "overscroll-behavior-y": {
+        "type": "x",
+        "title": "overscroll-behavior-y",
+        "docLink": "overscroll-behavior",
+        "list": [
             "overscroll-y-auto",
             "overscroll-y-contain",
             "overscroll-y-none"
@@ -250,6 +294,7 @@ const propertyConfig = {
     "position": {
         "type": "x",
         "title": "position",
+        "docLink": "position",
         "list": [
             "static",
             "fixed",
@@ -261,6 +306,7 @@ const propertyConfig = {
     "top": {
         "type": "x",
         "title": "top",
+        "docLink": "top",
         "list": [
             "-top-0",
             "-top-0.5",
@@ -352,6 +398,7 @@ const propertyConfig = {
     "right": {
         "type": "x",
         "title": "right",
+        "docLink": "right",
         "list": [
             "-right-0",
             "-right-0.5",
@@ -443,6 +490,7 @@ const propertyConfig = {
     "bottom": {
         "type": "x",
         "title": "bottom",
+        "docLink": "bottom",
         "list": [
             "-bottom-0",
             "-bottom-0.5",
@@ -534,6 +582,7 @@ const propertyConfig = {
     "left": {
         "type": "x",
         "title": "left",
+        "docLink": "left",
         "list": [
             "-left-0",
             "-left-0.5",
@@ -625,6 +674,7 @@ const propertyConfig = {
     "visibility": {
         "type": "x",
         "title": "visibility",
+        "docLink": "visibility",
         "list": [
             "visible",
             "invisible"
@@ -633,11 +683,13 @@ const propertyConfig = {
     "FLEXBOX & GRID": {
         "type": "h",
         "title": "FLEXBOX & GRID",
+        "docLink": "FLEXBOX & GRID",
         "list": []
     },
     "z-index": {
         "type": "x",
         "title": "z-index",
+        "docLink": "z-index",
         "list": [
             "z-0",
             "z-10",
@@ -651,6 +703,7 @@ const propertyConfig = {
     "flex-basis": {
         "type": "x",
         "title": "flex-basis",
+        "docLink": "flex-basis",
         "list": [
             "basis-1",
             "basis-2",
@@ -708,6 +761,7 @@ const propertyConfig = {
     "flex-direction": {
         "type": "x",
         "title": "flex-direction",
+        "docLink": "flex-direction",
         "list": [
             "flex-row",
             "flex-row-reverse",
@@ -718,6 +772,7 @@ const propertyConfig = {
     "flex-wrap": {
         "type": "x",
         "title": "flex-wrap",
+        "docLink": "flex-wrap",
         "list": [
             "flex-wrap",
             "flex-wrap-reverse",
@@ -727,6 +782,7 @@ const propertyConfig = {
     "flex": {
         "type": "x",
         "title": "flex",
+        "docLink": "flex",
         "list": [
             "flex-1",
             "flex-auto",
@@ -737,6 +793,7 @@ const propertyConfig = {
     "flex-grow": {
         "type": "x",
         "title": "flex-grow",
+        "docLink": "flex-grow",
         "list": [
             "flex-grow",
             "flex-grow-0"
@@ -745,6 +802,7 @@ const propertyConfig = {
     "flex-shrink": {
         "type": "x",
         "title": "flex-shrink",
+        "docLink": "flex-shrink",
         "list": [
             "flex-shrink",
             "flex-shrink-0"
@@ -753,6 +811,7 @@ const propertyConfig = {
     "order": {
         "type": "x",
         "title": "order",
+        "docLink": "order",
         "list": [
             "order-first",
             "order-last",
@@ -774,6 +833,7 @@ const propertyConfig = {
     "grid-template-columns": {
         "type": "x",
         "title": "grid-template-columns",
+        "docLink": "grid-template-columns",
         "list": [
             "grid-cols-1",
             "grid-cols-2",
@@ -790,9 +850,10 @@ const propertyConfig = {
             "grid-cols-none"
         ]
     },
-    "grid-column": {
+    "grid-column-col-span": {
         "type": "x",
-        "title": "grid-column",
+        "title": "grid-column-col-span",
+        "docLink": "grid-column",
         "list": [
             "col-auto",
             "col-span-1",
@@ -807,7 +868,14 @@ const propertyConfig = {
             "col-span-10",
             "col-span-11",
             "col-span-12",
-            "col-span-full",
+            "col-span-full"
+        ]
+    },
+    "grid-column-col-start": {
+        "type": "x",
+        "title": "grid-column-col-start",
+        "docLink": "grid-column",
+        "list": [
             "col-start-1",
             "col-start-2",
             "col-start-3",
@@ -821,7 +889,14 @@ const propertyConfig = {
             "col-start-11",
             "col-start-12",
             "col-start-13",
-            "col-start-auto",
+            "col-start-auto"
+        ]
+    },
+    "grid-column-col-end": {
+        "type": "x",
+        "title": "grid-column-col-end",
+        "docLink": "grid-column",
+        "list": [
             "col-end-1",
             "col-end-2",
             "col-end-3",
@@ -841,6 +916,7 @@ const propertyConfig = {
     "grid-template-rows": {
         "type": "x",
         "title": "grid-template-rows",
+        "docLink": "grid-template-rows",
         "list": [
             "grid-rows-1",
             "grid-rows-2",
@@ -851,9 +927,10 @@ const propertyConfig = {
             "grid-rows-none"
         ]
     },
-    "grid-row": {
+    "grid-row-row-span": {
         "type": "x",
-        "title": "grid-row",
+        "title": "grid-row-row-span",
+        "docLink": "grid-row",
         "list": [
             "row-auto",
             "row-span-1",
@@ -862,7 +939,14 @@ const propertyConfig = {
             "row-span-4",
             "row-span-5",
             "row-span-6",
-            "row-span-full",
+            "row-span-full"
+        ]
+    },
+    "grid-row-row-start": {
+        "type": "x",
+        "title": "grid-row-row-start",
+        "docLink": "grid-row",
+        "list": [
             "row-start-1",
             "row-start-2",
             "row-start-3",
@@ -870,7 +954,14 @@ const propertyConfig = {
             "row-start-5",
             "row-start-6",
             "row-start-7",
-            "row-start-auto",
+            "row-start-auto"
+        ]
+    },
+    "grid-row-row-end": {
+        "type": "x",
+        "title": "grid-row-row-end",
+        "docLink": "grid-row",
+        "list": [
             "row-end-1",
             "row-end-2",
             "row-end-3",
@@ -884,6 +975,7 @@ const propertyConfig = {
     "grid-auto-flow": {
         "type": "x",
         "title": "grid-auto-flow",
+        "docLink": "grid-auto-flow",
         "list": [
             "grid-flow-row",
             "grid-flow-col",
@@ -894,6 +986,7 @@ const propertyConfig = {
     "grid-auto-columns": {
         "type": "x",
         "title": "grid-auto-columns",
+        "docLink": "grid-auto-columns",
         "list": [
             "auto-cols-auto",
             "auto-cols-min",
@@ -904,6 +997,7 @@ const propertyConfig = {
     "grid-auto-rows": {
         "type": "x",
         "title": "grid-auto-rows",
+        "docLink": "grid-auto-rows",
         "list": [
             "auto-rows-auto",
             "auto-rows-min",
@@ -914,6 +1008,7 @@ const propertyConfig = {
     "gap": {
         "type": "x",
         "title": "gap",
+        "docLink": "gap",
         "list": [
             "gap-0",
             "gap-1",
@@ -949,7 +1044,14 @@ const propertyConfig = {
             "gap-0.5",
             "gap-1.5",
             "gap-2.5",
-            "gap-3.5",
+            "gap-3.5"
+        ]
+    },
+    "gap-x": {
+        "type": "x",
+        "title": "gap-x",
+        "docLink": "gap",
+        "list": [
             "gap-x-0",
             "gap-x-1",
             "gap-x-2",
@@ -984,7 +1086,14 @@ const propertyConfig = {
             "gap-x-0.5",
             "gap-x-1.5",
             "gap-x-2.5",
-            "gap-x-3.5",
+            "gap-x-3.5"
+        ]
+    },
+    "gap-y": {
+        "type": "x",
+        "title": "gap-y",
+        "docLink": "gap",
+        "list": [
             "gap-y-0",
             "gap-y-1",
             "gap-y-2",
@@ -1025,6 +1134,7 @@ const propertyConfig = {
     "justify-content": {
         "type": "x",
         "title": "justify-content",
+        "docLink": "justify-content",
         "list": [
             "justify-start",
             "justify-end",
@@ -1037,6 +1147,7 @@ const propertyConfig = {
     "justify-items": {
         "type": "x",
         "title": "justify-items",
+        "docLink": "justify-items",
         "list": [
             "justify-items-start",
             "justify-items-end",
@@ -1047,6 +1158,7 @@ const propertyConfig = {
     "justify-self": {
         "type": "x",
         "title": "justify-self",
+        "docLink": "justify-self",
         "list": [
             "justify-self-auto",
             "justify-self-start",
@@ -1058,6 +1170,7 @@ const propertyConfig = {
     "align-content": {
         "type": "x",
         "title": "align-content",
+        "docLink": "align-content",
         "list": [
             "content-start",
             "content-center",
@@ -1070,6 +1183,7 @@ const propertyConfig = {
     "align-items": {
         "type": "x",
         "title": "align-items",
+        "docLink": "align-items",
         "list": [
             "items-stretch",
             "items-start",
@@ -1081,6 +1195,7 @@ const propertyConfig = {
     "align-self": {
         "type": "x",
         "title": "align-self",
+        "docLink": "align-self",
         "list": [
             "self-auto",
             "self-start",
@@ -1093,6 +1208,7 @@ const propertyConfig = {
     "place-content": {
         "type": "x",
         "title": "place-content",
+        "docLink": "place-content",
         "list": [
             "place-content-center",
             "place-content-start",
@@ -1106,6 +1222,7 @@ const propertyConfig = {
     "place-items": {
         "type": "x",
         "title": "place-items",
+        "docLink": "place-items",
         "list": [
             "place-items-start",
             "place-items-end",
@@ -1116,11 +1233,13 @@ const propertyConfig = {
     "SPACING": {
         "type": "h",
         "title": "SPACING",
+        "docLink": "SPACING",
         "list": []
     },
     "place-self": {
         "type": "x",
         "title": "place-self",
+        "docLink": "place-self",
         "list": [
             "place-self-auto",
             "place-self-start",
@@ -1132,6 +1251,7 @@ const propertyConfig = {
     "padding": {
         "type": "x",
         "title": "padding",
+        "docLink": "padding",
         "list": [
             "p-0",
             "p-1",
@@ -1167,7 +1287,14 @@ const propertyConfig = {
             "p-0.5",
             "p-1.5",
             "p-2.5",
-            "p-3.5",
+            "p-3.5"
+        ]
+    },
+    "padding-x": {
+        "type": "x",
+        "title": "padding-x",
+        "docLink": "padding",
+        "list": [
             "px-0",
             "px-1",
             "px-2",
@@ -1202,7 +1329,14 @@ const propertyConfig = {
             "px-0.5",
             "px-1.5",
             "px-2.5",
-            "px-3.5",
+            "px-3.5"
+        ]
+    },
+    "padding-y": {
+        "type": "x",
+        "title": "padding-y",
+        "docLink": "padding",
+        "list": [
             "py-0",
             "py-1",
             "py-2",
@@ -1237,7 +1371,14 @@ const propertyConfig = {
             "py-0.5",
             "py-1.5",
             "py-2.5",
-            "py-3.5",
+            "py-3.5"
+        ]
+    },
+    "padding-t": {
+        "type": "x",
+        "title": "padding-t",
+        "docLink": "padding",
+        "list": [
             "pt-0",
             "pt-1",
             "pt-2",
@@ -1272,7 +1413,14 @@ const propertyConfig = {
             "pt-0.5",
             "pt-1.5",
             "pt-2.5",
-            "pt-3.5",
+            "pt-3.5"
+        ]
+    },
+    "padding-r": {
+        "type": "x",
+        "title": "padding-t",
+        "docLink": "padding",
+        "list": [
             "pr-0",
             "pr-1",
             "pr-2",
@@ -1307,7 +1455,14 @@ const propertyConfig = {
             "pr-0.5",
             "pr-1.5",
             "pr-2.5",
-            "pr-3.5",
+            "pr-3.5"
+        ]
+    },
+    "padding-b": {
+        "type": "x",
+        "title": "padding-b",
+        "docLink": "padding",
+        "list": [
             "pb-0",
             "pb-1",
             "pb-2",
@@ -1342,7 +1497,14 @@ const propertyConfig = {
             "pb-0.5",
             "pb-1.5",
             "pb-2.5",
-            "pb-3.5",
+            "pb-3.5"
+        ]
+    },
+    "padding-l": {
+        "type": "x",
+        "title": "padding-l",
+        "docLink": "padding",
+        "list": [
             "pl-0",
             "pl-1",
             "pl-2",
@@ -1383,11 +1545,13 @@ const propertyConfig = {
     "SIZING": {
         "type": "h",
         "title": "SIZING",
+        "docLink": "SIZING",
         "list": []
     },
     "margin": {
         "type": "x",
         "title": "margin",
+        "docLink": "margin",
         "list": [
             "m-0",
             "m-1",
@@ -1424,42 +1588,14 @@ const propertyConfig = {
             "m-0.5",
             "m-1.5",
             "m-2.5",
-            "m-3.5",
-            "-m-0",
-            "-m-1",
-            "-m-2",
-            "-m-3",
-            "-m-4",
-            "-m-5",
-            "-m-6",
-            "-m-7",
-            "-m-8",
-            "-m-9",
-            "-m-10",
-            "-m-11",
-            "-m-12",
-            "-m-14",
-            "-m-16",
-            "-m-20",
-            "-m-24",
-            "-m-28",
-            "-m-32",
-            "-m-36",
-            "-m-40",
-            "-m-44",
-            "-m-48",
-            "-m-52",
-            "-m-56",
-            "-m-60",
-            "-m-64",
-            "-m-72",
-            "-m-80",
-            "-m-96",
-            "-m-px",
-            "-m-0.5",
-            "-m-1.5",
-            "-m-2.5",
-            "-m-3.5",
+            "m-3.5"
+        ]
+    },
+    "margin-mx": {
+        "type": "x",
+        "title": "margin-mx",
+        "docLink": "margin",
+        "list": [
             "mx-0",
             "mx-1",
             "mx-2",
@@ -1495,42 +1631,14 @@ const propertyConfig = {
             "mx-0.5",
             "mx-1.5",
             "mx-2.5",
-            "mx-3.5",
-            "-mx-0",
-            "-mx-1",
-            "-mx-2",
-            "-mx-3",
-            "-mx-4",
-            "-mx-5",
-            "-mx-6",
-            "-mx-7",
-            "-mx-8",
-            "-mx-9",
-            "-mx-10",
-            "-mx-11",
-            "-mx-12",
-            "-mx-14",
-            "-mx-16",
-            "-mx-20",
-            "-mx-24",
-            "-mx-28",
-            "-mx-32",
-            "-mx-36",
-            "-mx-40",
-            "-mx-44",
-            "-mx-48",
-            "-mx-52",
-            "-mx-56",
-            "-mx-60",
-            "-mx-64",
-            "-mx-72",
-            "-mx-80",
-            "-mx-96",
-            "-mx-px",
-            "-mx-0.5",
-            "-mx-1.5",
-            "-mx-2.5",
-            "-mx-3.5",
+            "mx-3.5"
+        ]
+    },
+    "margin-my": {
+        "type": "x",
+        "title": "margin-my",
+        "docLink": "margin",
+        "list": [
             "my-0",
             "my-1",
             "my-2",
@@ -1566,42 +1674,14 @@ const propertyConfig = {
             "my-0.5",
             "my-1.5",
             "my-2.5",
-            "my-3.5",
-            "-my-0",
-            "-my-1",
-            "-my-2",
-            "-my-3",
-            "-my-4",
-            "-my-5",
-            "-my-6",
-            "-my-7",
-            "-my-8",
-            "-my-9",
-            "-my-10",
-            "-my-11",
-            "-my-12",
-            "-my-14",
-            "-my-16",
-            "-my-20",
-            "-my-24",
-            "-my-28",
-            "-my-32",
-            "-my-36",
-            "-my-40",
-            "-my-44",
-            "-my-48",
-            "-my-52",
-            "-my-56",
-            "-my-60",
-            "-my-64",
-            "-my-72",
-            "-my-80",
-            "-my-96",
-            "-my-px",
-            "-my-0.5",
-            "-my-1.5",
-            "-my-2.5",
-            "-my-3.5",
+            "my-3.5"
+        ]
+    },
+    "margin-mt": {
+        "type": "x",
+        "title": "margin-mt",
+        "docLink": "margin",
+        "list": [
             "mt-0",
             "mt-1",
             "mt-2",
@@ -1637,42 +1717,14 @@ const propertyConfig = {
             "mt-0.5",
             "mt-1.5",
             "mt-2.5",
-            "mt-3.5",
-            "-mt-0",
-            "-mt-1",
-            "-mt-2",
-            "-mt-3",
-            "-mt-4",
-            "-mt-5",
-            "-mt-6",
-            "-mt-7",
-            "-mt-8",
-            "-mt-9",
-            "-mt-10",
-            "-mt-11",
-            "-mt-12",
-            "-mt-14",
-            "-mt-16",
-            "-mt-20",
-            "-mt-24",
-            "-mt-28",
-            "-mt-32",
-            "-mt-36",
-            "-mt-40",
-            "-mt-44",
-            "-mt-48",
-            "-mt-52",
-            "-mt-56",
-            "-mt-60",
-            "-mt-64",
-            "-mt-72",
-            "-mt-80",
-            "-mt-96",
-            "-mt-px",
-            "-mt-0.5",
-            "-mt-1.5",
-            "-mt-2.5",
-            "-mt-3.5",
+            "mt-3.5"
+        ]
+    },
+    "margin-mr": {
+        "type": "x",
+        "title": "margin-mr",
+        "docLink": "margin",
+        "list": [
             "mr-0",
             "mr-1",
             "mr-2",
@@ -1708,42 +1760,14 @@ const propertyConfig = {
             "mr-0.5",
             "mr-1.5",
             "mr-2.5",
-            "mr-3.5",
-            "-mr-0",
-            "-mr-1",
-            "-mr-2",
-            "-mr-3",
-            "-mr-4",
-            "-mr-5",
-            "-mr-6",
-            "-mr-7",
-            "-mr-8",
-            "-mr-9",
-            "-mr-10",
-            "-mr-11",
-            "-mr-12",
-            "-mr-14",
-            "-mr-16",
-            "-mr-20",
-            "-mr-24",
-            "-mr-28",
-            "-mr-32",
-            "-mr-36",
-            "-mr-40",
-            "-mr-44",
-            "-mr-48",
-            "-mr-52",
-            "-mr-56",
-            "-mr-60",
-            "-mr-64",
-            "-mr-72",
-            "-mr-80",
-            "-mr-96",
-            "-mr-px",
-            "-mr-0.5",
-            "-mr-1.5",
-            "-mr-2.5",
-            "-mr-3.5",
+            "mr-3.5"
+        ]
+    },
+    "margin-mb": {
+        "type": "x",
+        "title": "margin-mb",
+        "docLink": "margin",
+        "list": [
             "mb-0",
             "mb-1",
             "mb-2",
@@ -1779,42 +1803,14 @@ const propertyConfig = {
             "mb-0.5",
             "mb-1.5",
             "mb-2.5",
-            "mb-3.5",
-            "-mb-0",
-            "-mb-1",
-            "-mb-2",
-            "-mb-3",
-            "-mb-4",
-            "-mb-5",
-            "-mb-6",
-            "-mb-7",
-            "-mb-8",
-            "-mb-9",
-            "-mb-10",
-            "-mb-11",
-            "-mb-12",
-            "-mb-14",
-            "-mb-16",
-            "-mb-20",
-            "-mb-24",
-            "-mb-28",
-            "-mb-32",
-            "-mb-36",
-            "-mb-40",
-            "-mb-44",
-            "-mb-48",
-            "-mb-52",
-            "-mb-56",
-            "-mb-60",
-            "-mb-64",
-            "-mb-72",
-            "-mb-80",
-            "-mb-96",
-            "-mb-px",
-            "-mb-0.5",
-            "-mb-1.5",
-            "-mb-2.5",
-            "-mb-3.5",
+            "mb-3.5"
+        ]
+    },
+    "margin-ml": {
+        "type": "x",
+        "title": "margin-ml",
+        "docLink": "margin",
+        "list": [
             "ml-0",
             "ml-1",
             "ml-2",
@@ -1850,7 +1846,266 @@ const propertyConfig = {
             "ml-0.5",
             "ml-1.5",
             "ml-2.5",
-            "ml-3.5",
+            "ml-3.5"
+        ]
+    },
+    "-margin": {
+        "type": "x",
+        "title": "-margin",
+        "docLink": "margin",
+        "list": [
+            "-m-0",
+            "-m-1",
+            "-m-2",
+            "-m-3",
+            "-m-4",
+            "-m-5",
+            "-m-6",
+            "-m-7",
+            "-m-8",
+            "-m-9",
+            "-m-10",
+            "-m-11",
+            "-m-12",
+            "-m-14",
+            "-m-16",
+            "-m-20",
+            "-m-24",
+            "-m-28",
+            "-m-32",
+            "-m-36",
+            "-m-40",
+            "-m-44",
+            "-m-48",
+            "-m-52",
+            "-m-56",
+            "-m-60",
+            "-m-64",
+            "-m-72",
+            "-m-80",
+            "-m-96",
+            "-m-px",
+            "-m-0.5",
+            "-m-1.5",
+            "-m-2.5",
+            "-m-3.5"
+        ]
+    },
+    "-margin-mx": {
+        "type": "x",
+        "title": "-margin-mx",
+        "docLink": "margin",
+        "list": [
+            "-mx-0",
+            "-mx-1",
+            "-mx-2",
+            "-mx-3",
+            "-mx-4",
+            "-mx-5",
+            "-mx-6",
+            "-mx-7",
+            "-mx-8",
+            "-mx-9",
+            "-mx-10",
+            "-mx-11",
+            "-mx-12",
+            "-mx-14",
+            "-mx-16",
+            "-mx-20",
+            "-mx-24",
+            "-mx-28",
+            "-mx-32",
+            "-mx-36",
+            "-mx-40",
+            "-mx-44",
+            "-mx-48",
+            "-mx-52",
+            "-mx-56",
+            "-mx-60",
+            "-mx-64",
+            "-mx-72",
+            "-mx-80",
+            "-mx-96",
+            "-mx-px",
+            "-mx-0.5",
+            "-mx-1.5",
+            "-mx-2.5",
+            "-mx-3.5"
+        ]
+    },
+    "-margin-my": {
+        "type": "x",
+        "title": "-margin-my",
+        "docLink": "margin",
+        "list": [
+            "-my-0",
+            "-my-1",
+            "-my-2",
+            "-my-3",
+            "-my-4",
+            "-my-5",
+            "-my-6",
+            "-my-7",
+            "-my-8",
+            "-my-9",
+            "-my-10",
+            "-my-11",
+            "-my-12",
+            "-my-14",
+            "-my-16",
+            "-my-20",
+            "-my-24",
+            "-my-28",
+            "-my-32",
+            "-my-36",
+            "-my-40",
+            "-my-44",
+            "-my-48",
+            "-my-52",
+            "-my-56",
+            "-my-60",
+            "-my-64",
+            "-my-72",
+            "-my-80",
+            "-my-96",
+            "-my-px",
+            "-my-0.5",
+            "-my-1.5",
+            "-my-2.5",
+            "-my-3.5"
+        ]
+    },
+    "-margin-mt": {
+        "type": "x",
+        "title": "-margin-mt",
+        "docLink": "margin",
+        "list": [
+            "-mt-0",
+            "-mt-1",
+            "-mt-2",
+            "-mt-3",
+            "-mt-4",
+            "-mt-5",
+            "-mt-6",
+            "-mt-7",
+            "-mt-8",
+            "-mt-9",
+            "-mt-10",
+            "-mt-11",
+            "-mt-12",
+            "-mt-14",
+            "-mt-16",
+            "-mt-20",
+            "-mt-24",
+            "-mt-28",
+            "-mt-32",
+            "-mt-36",
+            "-mt-40",
+            "-mt-44",
+            "-mt-48",
+            "-mt-52",
+            "-mt-56",
+            "-mt-60",
+            "-mt-64",
+            "-mt-72",
+            "-mt-80",
+            "-mt-96",
+            "-mt-px",
+            "-mt-0.5",
+            "-mt-1.5",
+            "-mt-2.5",
+            "-mt-3.5"
+        ]
+    },
+    "-margin-mr": {
+        "type": "x",
+        "title": "-margin-mr",
+        "docLink": "margin",
+        "list": [
+            "-mr-0",
+            "-mr-1",
+            "-mr-2",
+            "-mr-3",
+            "-mr-4",
+            "-mr-5",
+            "-mr-6",
+            "-mr-7",
+            "-mr-8",
+            "-mr-9",
+            "-mr-10",
+            "-mr-11",
+            "-mr-12",
+            "-mr-14",
+            "-mr-16",
+            "-mr-20",
+            "-mr-24",
+            "-mr-28",
+            "-mr-32",
+            "-mr-36",
+            "-mr-40",
+            "-mr-44",
+            "-mr-48",
+            "-mr-52",
+            "-mr-56",
+            "-mr-60",
+            "-mr-64",
+            "-mr-72",
+            "-mr-80",
+            "-mr-96",
+            "-mr-px",
+            "-mr-0.5",
+            "-mr-1.5",
+            "-mr-2.5",
+            "-mr-3.5"
+        ]
+    },
+    "-margin-mb": {
+        "type": "x",
+        "title": "-margin-mb",
+        "docLink": "margin",
+        "list": [
+            "-mb-0",
+            "-mb-1",
+            "-mb-2",
+            "-mb-3",
+            "-mb-4",
+            "-mb-5",
+            "-mb-6",
+            "-mb-7",
+            "-mb-8",
+            "-mb-9",
+            "-mb-10",
+            "-mb-11",
+            "-mb-12",
+            "-mb-14",
+            "-mb-16",
+            "-mb-20",
+            "-mb-24",
+            "-mb-28",
+            "-mb-32",
+            "-mb-36",
+            "-mb-40",
+            "-mb-44",
+            "-mb-48",
+            "-mb-52",
+            "-mb-56",
+            "-mb-60",
+            "-mb-64",
+            "-mb-72",
+            "-mb-80",
+            "-mb-96",
+            "-mb-px",
+            "-mb-0.5",
+            "-mb-1.5",
+            "-mb-2.5",
+            "-mb-3.5"
+        ]
+    },
+    "-margin-ml": {
+        "type": "x",
+        "title": "-margin-ml",
+        "docLink": "margin",
+        "list": [
             "-ml-0",
             "-ml-1",
             "-ml-2",
@@ -1891,6 +2146,7 @@ const propertyConfig = {
     "width": {
         "type": "x",
         "title": "width",
+        "docLink": "width",
         "list": [
             "w-0",
             "w-1",
@@ -1963,6 +2219,7 @@ const propertyConfig = {
     "min-width": {
         "type": "x",
         "title": "min-width",
+        "docLink": "min-width",
         "list": [
             "min-w-0",
             "min-w-full",
@@ -1973,6 +2230,7 @@ const propertyConfig = {
     "max-width": {
         "type": "x",
         "title": "max-width",
+        "docLink": "max-width",
         "list": [
             "max-w-0",
             "max-w-none",
@@ -2001,6 +2259,7 @@ const propertyConfig = {
     "height": {
         "type": "x",
         "title": "height",
+        "docLink": "height",
         "list": [
             "h-0",
             "h-1",
@@ -2060,6 +2319,7 @@ const propertyConfig = {
     "min-height": {
         "type": "x",
         "title": "min-height",
+        "docLink": "min-height",
         "list": [
             "min-h-0",
             "min-h-full",
@@ -2069,11 +2329,13 @@ const propertyConfig = {
     "TYPOGRAPHY": {
         "type": "h",
         "title": "TYPOGRAPHY",
+        "docLink": "TYPOGRAPHY",
         "list": []
     },
     "max-height": {
         "type": "x",
         "title": "max-height",
+        "docLink": "max-height",
         "list": [
             "max-h-0",
             "max-h-1",
@@ -2117,6 +2379,7 @@ const propertyConfig = {
     "font-family": {
         "type": "x",
         "title": "font-family",
+        "docLink": "font-family",
         "list": [
             "font-sans",
             "font-serif",
@@ -2126,6 +2389,7 @@ const propertyConfig = {
     "font-size": {
         "type": "x",
         "title": "font-size",
+        "docLink": "font-size",
         "list": [
             "text-xs",
             "text-sm",
@@ -2145,6 +2409,7 @@ const propertyConfig = {
     "font-smoothing": {
         "type": "x",
         "title": "font-smoothing",
+        "docLink": "font-smoothing",
         "list": [
             "antialiased",
             "subpixel-antialiased"
@@ -2153,6 +2418,7 @@ const propertyConfig = {
     "font-style": {
         "type": "x",
         "title": "font-style",
+        "docLink": "font-style",
         "list": [
             "italic",
             "not-italic"
@@ -2161,6 +2427,7 @@ const propertyConfig = {
     "font-weight": {
         "type": "x",
         "title": "font-weight",
+        "docLink": "font-weight",
         "list": [
             "font-thin",
             "font-extralight",
@@ -2176,6 +2443,7 @@ const propertyConfig = {
     "font-stretch": {
         "type": "x",
         "title": "font-stretch",
+        "docLink": "font-stretch",
         "list": [
             "font-stretch-ultra-condensed",
             "font-stretch-extra-condensed",
@@ -2211,6 +2479,7 @@ const propertyConfig = {
     "font-variant-numeric": {
         "type": "x",
         "title": "font-variant-numeric",
+        "docLink": "font-variant-numeric",
         "list": [
             "normal-nums",
             "ordinal",
@@ -2226,6 +2495,7 @@ const propertyConfig = {
     "letter-spacing": {
         "type": "x",
         "title": "letter-spacing",
+        "docLink": "letter-spacing",
         "list": [
             "tracking-tighter",
             "tracking-tight",
@@ -2238,6 +2508,7 @@ const propertyConfig = {
     "line-clamp": {
         "type": "x",
         "title": "line-clamp",
+        "docLink": "line-clamp",
         "list": [
             "line-clamp-1",
             "line-clamp-2",
@@ -2255,6 +2526,7 @@ const propertyConfig = {
     "line-height": {
         "type": "x",
         "title": "line-height",
+        "docLink": "line-height",
         "list": [
             "leading-none",
             "leading-tight",
@@ -2275,16 +2547,19 @@ const propertyConfig = {
     "XXX": {
         "type": "h",
         "title": "XXX",
+        "docLink": "XXX",
         "list": []
     },
     "list-style-image": {
         "type": "x",
         "title": "list-style-image",
+        "docLink": "list-style-image",
         "list": []
     },
     "list-style-position": {
         "type": "x",
         "title": "list-style-position",
+        "docLink": "list-style-position",
         "list": [
             "list-inside",
             "list-outside"
@@ -2293,6 +2568,7 @@ const propertyConfig = {
     "list-style-type": {
         "type": "x",
         "title": "list-style-type",
+        "docLink": "list-style-type",
         "list": [
             "list-none",
             "list-disc",
@@ -2302,6 +2578,7 @@ const propertyConfig = {
     "text-align": {
         "type": "x",
         "title": "text-align",
+        "docLink": "text-align",
         "list": [
             "text-left",
             "text-center",
@@ -2312,6 +2589,7 @@ const propertyConfig = {
     "color": {
         "type": "x",
         "title": "color",
+        "docLink": "color",
         "list": [
             "text-inherit",
             "text-current",
@@ -2565,6 +2843,7 @@ const propertyConfig = {
     "text-decoration-line": {
         "type": "x",
         "title": "text-decoration-line",
+        "docLink": "text-decoration-line",
         "list": [
             "underline",
             "overline",
@@ -2575,6 +2854,7 @@ const propertyConfig = {
     "text-decoration-color": {
         "type": "x",
         "title": "text-decoration-color",
+        "docLink": "text-decoration-color",
         "list": [
             "decoration-inherit",
             "decoration-current",
@@ -2828,6 +3108,7 @@ const propertyConfig = {
     "text-decoration-style": {
         "type": "x",
         "title": "text-decoration-style",
+        "docLink": "text-decoration-style",
         "list": [
             "decoration-solid",
             "decoration-double",
@@ -2839,11 +3120,13 @@ const propertyConfig = {
     "text-decoration-thickness": {
         "type": "x",
         "title": "text-decoration-thickness",
+        "docLink": "text-decoration-thickness",
         "list": []
     },
     "text-underline-offset": {
         "type": "x",
         "title": "text-underline-offset",
+        "docLink": "text-underline-offset",
         "list": [
             "underline-offset-1",
             "underline-offset-2",
@@ -2871,6 +3154,7 @@ const propertyConfig = {
     "text-transform": {
         "type": "x",
         "title": "text-transform",
+        "docLink": "text-transform",
         "list": [
             "uppercase",
             "lowercase",
@@ -2881,6 +3165,7 @@ const propertyConfig = {
     "text-overflow": {
         "type": "x",
         "title": "text-overflow",
+        "docLink": "text-overflow",
         "list": [
             "truncate",
             "text-ellipsis",
@@ -2890,6 +3175,7 @@ const propertyConfig = {
     "text-wrap": {
         "type": "x",
         "title": "text-wrap",
+        "docLink": "text-wrap",
         "list": [
             "text-wrap",
             "text-nowrap",
@@ -2900,6 +3186,7 @@ const propertyConfig = {
     "text-indent": {
         "type": "x",
         "title": "text-indent",
+        "docLink": "text-indent",
         "list": [
             "indent-0",
             "indent-1",
@@ -2966,6 +3253,7 @@ const propertyConfig = {
     "vertical-align": {
         "type": "x",
         "title": "vertical-align",
+        "docLink": "vertical-align",
         "list": [
             "align-baseline",
             "align-top",
@@ -2982,6 +3270,7 @@ const propertyConfig = {
     "white-space": {
         "type": "x",
         "title": "white-space",
+        "docLink": "white-space",
         "list": [
             "whitespace-normal",
             "whitespace-nowrap",
@@ -2994,6 +3283,7 @@ const propertyConfig = {
     "word-break": {
         "type": "x",
         "title": "word-break",
+        "docLink": "word-break",
         "list": [
             "break-normal",
             "break-all",
@@ -3003,6 +3293,7 @@ const propertyConfig = {
     "overflow-wrap": {
         "type": "x",
         "title": "overflow-wrap",
+        "docLink": "overflow-wrap",
         "list": [
             "wrap-break-word",
             "wrap-anywhere",
@@ -3012,6 +3303,7 @@ const propertyConfig = {
     "hyphens": {
         "type": "x",
         "title": "hyphens",
+        "docLink": "hyphens",
         "list": [
             "hyphens-none",
             "hyphens-manual",
@@ -3021,11 +3313,13 @@ const propertyConfig = {
     "BACKGROUNDS": {
         "type": "h",
         "title": "BACKGROUNDS",
+        "docLink": "BACKGROUNDS",
         "list": []
     },
     "content": {
         "type": "x",
         "title": "content",
+        "docLink": "content",
         "list": [
             "content-[<value>]",
             "content-(<custom-property>)",
@@ -3035,6 +3329,7 @@ const propertyConfig = {
     "background-attachment": {
         "type": "x",
         "title": "background-attachment",
+        "docLink": "background-attachment",
         "list": [
             "bg-fixed",
             "bg-local",
@@ -3044,6 +3339,7 @@ const propertyConfig = {
     "background-clip": {
         "type": "x",
         "title": "background-clip",
+        "docLink": "background-clip",
         "list": [
             "bg-clip-border",
             "bg-clip-padding",
@@ -3054,6 +3350,7 @@ const propertyConfig = {
     "background-color": {
         "type": "x",
         "title": "background-color",
+        "docLink": "background-color",
         "list": [
             "bg-inherit",
             "bg-current",
@@ -3309,6 +3606,7 @@ const propertyConfig = {
     "background-image": {
         "type": "x",
         "title": "background-image",
+        "docLink": "background-image",
         "list": [
             "bg-[url('./background_image.jpg')]",
             "bg-none",
@@ -3325,6 +3623,7 @@ const propertyConfig = {
     "background-origin": {
         "type": "x",
         "title": "background-origin",
+        "docLink": "background-origin",
         "list": [
             "bg-origin-border",
             "bg-origin-padding",
@@ -3334,6 +3633,7 @@ const propertyConfig = {
     "background-position": {
         "type": "x",
         "title": "background-position",
+        "docLink": "background-position",
         "list": [
             "bg-top-left",
             "bg-top",
@@ -3351,6 +3651,7 @@ const propertyConfig = {
     "background-repeat": {
         "type": "x",
         "title": "background-repeat",
+        "docLink": "background-repeat",
         "list": [
             "bg-repeat",
             "bg-repeat-x",
@@ -3363,11 +3664,13 @@ const propertyConfig = {
     "BORDERS": {
         "type": "h",
         "title": "BORDERS",
+        "docLink": "BORDERS",
         "list": []
     },
     "background-size": {
         "type": "x",
         "title": "background-size",
+        "docLink": "background-size",
         "list": [
             "bg-auto",
             "bg-cover",
@@ -3379,192 +3682,292 @@ const propertyConfig = {
     "border-radius": {
         "type": "x",
         "title": "border-radius",
+        "docLink": "border-radius",
         "list": [
-            "rounded-xs",
-            "rounded-sm",
-            "rounded-md",
-            "rounded-lg",
-            "rounded-xl",
+            "rounded-(<custom-property>)",
+            "rounded-[<value>]",
             "rounded-2xl",
             "rounded-3xl",
             "rounded-4xl",
-            "rounded-none",
             "rounded-full",
-            "rounded-(<custom-property>)",
-            "rounded-[<value>]",
-            "rounded-s-xs",
-            "rounded-s-sm",
-            "rounded-s-md",
-            "rounded-s-lg",
-            "rounded-s-xl",
-            "rounded-s-2xl",
-            "rounded-s-3xl",
-            "rounded-s-4xl",
-            "rounded-s-none",
-            "rounded-s-full",
-            "rounded-s-(<custom-property>)",
-            "rounded-s-[<value>]",
-            "rounded-e-xs",
-            "rounded-e-sm",
-            "rounded-e-md",
-            "rounded-e-lg",
-            "rounded-e-xl",
-            "rounded-e-2xl",
-            "rounded-e-3xl",
-            "rounded-e-4xl",
-            "rounded-e-none",
-            "rounded-e-full",
-            "rounded-e-(<custom-property>)",
-            "rounded-e-[<value>]",
-            "rounded-t-xs",
-            "rounded-t-sm",
-            "rounded-t-md",
-            "rounded-t-lg",
-            "rounded-t-xl",
-            "rounded-t-2xl",
-            "rounded-t-3xl",
-            "rounded-t-4xl",
-            "rounded-t-none",
-            "rounded-t-full",
-            "rounded-t-(<custom-property>)",
-            "rounded-t-[<value>]",
-            "rounded-r-xs",
-            "rounded-r-sm",
-            "rounded-r-md",
-            "rounded-r-lg",
-            "rounded-r-xl",
-            "rounded-r-2xl",
-            "rounded-r-3xl",
-            "rounded-r-4xl",
-            "rounded-r-none",
-            "rounded-r-full",
-            "rounded-r-(<custom-property>)",
-            "rounded-r-[<value>]",
-            "rounded-b-xs",
-            "rounded-b-sm",
-            "rounded-b-md",
-            "rounded-b-lg",
-            "rounded-b-xl",
+            "rounded-lg",
+            "rounded-md",
+            "rounded-none",
+            "rounded-sm",
+            "rounded-xl",
+            "rounded-xs"
+        ]
+    },
+    "border-radius-b": {
+        "type": "x",
+        "title": "border-radius-b",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-b-(<custom-property>)",
+            "rounded-b-[<value>]",
             "rounded-b-2xl",
             "rounded-b-3xl",
             "rounded-b-4xl",
-            "rounded-b-none",
             "rounded-b-full",
-            "rounded-b-(<custom-property>)",
-            "rounded-b-[<value>]",
-            "rounded-l-xs",
-            "rounded-l-sm",
-            "rounded-l-md",
-            "rounded-l-lg",
-            "rounded-l-xl",
-            "rounded-l-2xl",
-            "rounded-l-3xl",
-            "rounded-l-4xl",
-            "rounded-l-none",
-            "rounded-l-full",
-            "rounded-l-(<custom-property>)",
-            "rounded-l-[<value>]",
-            "rounded-ss-xs",
-            "rounded-ss-sm",
-            "rounded-ss-md",
-            "rounded-ss-lg",
-            "rounded-ss-xl",
-            "rounded-ss-2xl",
-            "rounded-ss-3xl",
-            "rounded-ss-4xl",
-            "rounded-ss-none",
-            "rounded-ss-full",
-            "rounded-ss-(<custom-property>)",
-            "rounded-ss-[<value>]",
-            "rounded-se-xs",
-            "rounded-se-sm",
-            "rounded-se-md",
-            "rounded-se-lg",
-            "rounded-se-xl",
-            "rounded-se-2xl",
-            "rounded-se-3xl",
-            "rounded-se-4xl",
-            "rounded-se-none",
-            "rounded-se-full",
-            "rounded-se-(<custom-property>)",
-            "rounded-se-[<value>]",
-            "rounded-ee-xs",
-            "rounded-ee-sm",
-            "rounded-ee-md",
-            "rounded-ee-lg",
-            "rounded-ee-xl",
-            "rounded-ee-2xl",
-            "rounded-ee-3xl",
-            "rounded-ee-4xl",
-            "rounded-ee-none",
-            "rounded-ee-full",
-            "rounded-ee-(<custom-property>)",
-            "rounded-ee-[<value>]",
-            "rounded-es-xs",
-            "rounded-es-sm",
-            "rounded-es-md",
-            "rounded-es-lg",
-            "rounded-es-xl",
-            "rounded-es-2xl",
-            "rounded-es-3xl",
-            "rounded-es-4xl",
-            "rounded-es-none",
-            "rounded-es-full",
-            "rounded-es-(<custom-property>)",
-            "rounded-es-[<value>]",
-            "rounded-tl-xs",
-            "rounded-tl-sm",
-            "rounded-tl-md",
-            "rounded-tl-lg",
-            "rounded-tl-xl",
-            "rounded-tl-2xl",
-            "rounded-tl-3xl",
-            "rounded-tl-4xl",
-            "rounded-tl-none",
-            "rounded-tl-full",
-            "rounded-tl-(<custom-property>)",
-            "rounded-tl-[<value>]",
-            "rounded-tr-xs",
-            "rounded-tr-sm",
-            "rounded-tr-md",
-            "rounded-tr-lg",
-            "rounded-tr-xl",
-            "rounded-tr-2xl",
-            "rounded-tr-3xl",
-            "rounded-tr-4xl",
-            "rounded-tr-none",
-            "rounded-tr-full",
-            "rounded-tr-(<custom-property>)",
-            "rounded-tr-[<value>]",
-            "rounded-br-xs",
-            "rounded-br-sm",
-            "rounded-br-md",
-            "rounded-br-lg",
-            "rounded-br-xl",
-            "rounded-br-2xl",
-            "rounded-br-3xl",
-            "rounded-br-4xl",
-            "rounded-br-none",
-            "rounded-br-full",
-            "rounded-br-(<custom-property>)",
-            "rounded-br-[<value>]",
-            "rounded-bl-xs",
-            "rounded-bl-sm",
-            "rounded-bl-md",
-            "rounded-bl-lg",
-            "rounded-bl-xl",
+            "rounded-b-lg",
+            "rounded-b-md",
+            "rounded-b-none",
+            "rounded-b-sm",
+            "rounded-b-xl",
+            "rounded-b-xs"
+        ]
+    },
+    "border-radius-bl": {
+        "type": "x",
+        "title": "border-radius-bl",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-bl-(<custom-property>)",
+            "rounded-bl-[<value>]",
             "rounded-bl-2xl",
             "rounded-bl-3xl",
             "rounded-bl-4xl",
-            "rounded-bl-none",
             "rounded-bl-full",
-            "rounded-bl-(<custom-property>)",
-            "rounded-bl-[<value>]"
+            "rounded-bl-lg",
+            "rounded-bl-md",
+            "rounded-bl-none",
+            "rounded-bl-sm",
+            "rounded-bl-xl",
+            "rounded-bl-xs"
+        ]
+    },
+    "border-radius-br": {
+        "type": "x",
+        "title": "border-radius-br",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-br-(<custom-property>)",
+            "rounded-br-[<value>]",
+            "rounded-br-2xl",
+            "rounded-br-3xl",
+            "rounded-br-4xl",
+            "rounded-br-full",
+            "rounded-br-lg",
+            "rounded-br-md",
+            "rounded-br-none",
+            "rounded-br-sm",
+            "rounded-br-xl",
+            "rounded-br-xs"
+        ]
+    },
+    "border-radius-e": {
+        "type": "x",
+        "title": "border-radius-e",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-e-(<custom-property>)",
+            "rounded-e-[<value>]",
+            "rounded-e-2xl",
+            "rounded-e-3xl",
+            "rounded-e-4xl",
+            "rounded-e-full",
+            "rounded-e-lg",
+            "rounded-e-md",
+            "rounded-e-none",
+            "rounded-e-sm",
+            "rounded-e-xl",
+            "rounded-e-xs"
+        ]
+    },
+    "border-radius-ee": {
+        "type": "x",
+        "title": "border-radius-ee",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-ee-(<custom-property>)",
+            "rounded-ee-[<value>]",
+            "rounded-ee-2xl",
+            "rounded-ee-3xl",
+            "rounded-ee-4xl",
+            "rounded-ee-full",
+            "rounded-ee-lg",
+            "rounded-ee-md",
+            "rounded-ee-none",
+            "rounded-ee-sm",
+            "rounded-ee-xl",
+            "rounded-ee-xs"
+        ]
+    },
+    "border-radius-es": {
+        "type": "x",
+        "title": "border-radius-es",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-es-(<custom-property>)",
+            "rounded-es-[<value>]",
+            "rounded-es-2xl",
+            "rounded-es-3xl",
+            "rounded-es-4xl",
+            "rounded-es-full",
+            "rounded-es-lg",
+            "rounded-es-md",
+            "rounded-es-none",
+            "rounded-es-sm",
+            "rounded-es-xl",
+            "rounded-es-xs"
+        ]
+    },
+    "border-radius-l": {
+        "type": "x",
+        "title": "border-radius-l",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-l-(<custom-property>)",
+            "rounded-l-[<value>]",
+            "rounded-l-2xl",
+            "rounded-l-3xl",
+            "rounded-l-4xl",
+            "rounded-l-full",
+            "rounded-l-lg",
+            "rounded-l-md",
+            "rounded-l-none",
+            "rounded-l-sm",
+            "rounded-l-xl",
+            "rounded-l-xs"
+        ]
+    },
+    "border-radius-r": {
+        "type": "x",
+        "title": "border-radius-r",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-r-(<custom-property>)",
+            "rounded-r-[<value>]",
+            "rounded-r-2xl",
+            "rounded-r-3xl",
+            "rounded-r-4xl",
+            "rounded-r-full",
+            "rounded-r-lg",
+            "rounded-r-md",
+            "rounded-r-none",
+            "rounded-r-sm",
+            "rounded-r-xl",
+            "rounded-r-xs"
+        ]
+    },
+    "border-radius-s": {
+        "type": "x",
+        "title": "border-radius-s",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-s-(<custom-property>)",
+            "rounded-s-[<value>]",
+            "rounded-s-2xl",
+            "rounded-s-3xl",
+            "rounded-s-4xl",
+            "rounded-s-full",
+            "rounded-s-lg",
+            "rounded-s-md",
+            "rounded-s-none",
+            "rounded-s-sm",
+            "rounded-s-xl",
+            "rounded-s-xs"
+        ]
+    },
+    "border-radius-se": {
+        "type": "x",
+        "title": "border-radius-se",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-se-(<custom-property>)",
+            "rounded-se-[<value>]",
+            "rounded-se-2xl",
+            "rounded-se-3xl",
+            "rounded-se-4xl",
+            "rounded-se-full",
+            "rounded-se-lg",
+            "rounded-se-md",
+            "rounded-se-none",
+            "rounded-se-sm",
+            "rounded-se-xl",
+            "rounded-se-xs"
+        ]
+    },
+    "border-radius-ss": {
+        "type": "x",
+        "title": "border-radius-ss",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-ss-(<custom-property>)",
+            "rounded-ss-[<value>]",
+            "rounded-ss-2xl",
+            "rounded-ss-3xl",
+            "rounded-ss-4xl",
+            "rounded-ss-full",
+            "rounded-ss-lg",
+            "rounded-ss-md",
+            "rounded-ss-none",
+            "rounded-ss-sm",
+            "rounded-ss-xl",
+            "rounded-ss-xs"
+        ]
+    },
+    "border-radius-t": {
+        "type": "x",
+        "title": "border-radius-t",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-t-(<custom-property>)",
+            "rounded-t-[<value>]",
+            "rounded-t-2xl",
+            "rounded-t-3xl",
+            "rounded-t-4xl",
+            "rounded-t-full",
+            "rounded-t-lg",
+            "rounded-t-md",
+            "rounded-t-none",
+            "rounded-t-sm",
+            "rounded-t-xl",
+            "rounded-t-xs"
+        ]
+    },
+    "border-radius-tl": {
+        "type": "x",
+        "title": "border-radius-tl",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-tl-(<custom-property>)",
+            "rounded-tl-[<value>]",
+            "rounded-tl-2xl",
+            "rounded-tl-3xl",
+            "rounded-tl-4xl",
+            "rounded-tl-full",
+            "rounded-tl-lg",
+            "rounded-tl-md",
+            "rounded-tl-none",
+            "rounded-tl-sm",
+            "rounded-tl-xl",
+            "rounded-tl-xs"
+        ]
+    },
+    "border-radius-tr": {
+        "type": "x",
+        "title": "border-radius-tr",
+        "docLink": "border-radius",
+        "list": [
+            "rounded-tr-(<custom-property>)",
+            "rounded-tr-[<value>]",
+            "rounded-tr-2xl",
+            "rounded-tr-3xl",
+            "rounded-tr-4xl",
+            "rounded-tr-full",
+            "rounded-tr-lg",
+            "rounded-tr-md",
+            "rounded-tr-none",
+            "rounded-tr-sm",
+            "rounded-tr-xl",
+            "rounded-tr-xs"
         ]
     },
     "border-width": {
         "type": "x",
         "title": "border-width",
+        "docLink": "border-width",
         "list": [
             "border",
             "border-0",
@@ -3583,6 +3986,7 @@ const propertyConfig = {
     "border-color": {
         "type": "x",
         "title": "border-color",
+        "docLink": "border-color",
         "list": [
             "border-transparent",
             "border-current",
@@ -3673,6 +4077,7 @@ const propertyConfig = {
     "border-style": {
         "type": "x",
         "title": "border-style",
+        "docLink": "border-style",
         "list": [
             "border-solid",
             "border-dashed",
@@ -3684,6 +4089,7 @@ const propertyConfig = {
     "outline-width": {
         "type": "x",
         "title": "outline-width",
+        "docLink": "outline-width",
         "list": [
             "outline",
             "outline-0",
@@ -3722,6 +4128,7 @@ const propertyConfig = {
     "outline-color": {
         "type": "x",
         "title": "outline-color",
+        "docLink": "outline-color",
         "list": [
             "outline-inherit",
             "outline-current",
@@ -3977,6 +4384,7 @@ const propertyConfig = {
     "outline-style": {
         "type": "x",
         "title": "outline-style",
+        "docLink": "outline-style",
         "list": [
             "outline-solid",
             "outline-dashed",
@@ -3989,11 +4397,13 @@ const propertyConfig = {
     "EFFECTS": {
         "type": "h",
         "title": "EFFECTS",
+        "docLink": "EFFECTS",
         "list": []
     },
     "outline-offset": {
         "type": "x",
         "title": "outline-offset",
+        "docLink": "outline-offset",
         "list": [
             "outline-offset-0",
             "outline-offset-1",
@@ -4062,6 +4472,7 @@ const propertyConfig = {
     "box-shadow": {
         "type": "x",
         "title": "box-shadow",
+        "docLink": "box-shadow",
         "list": [
             "shadow-sm",
             "shadow",
@@ -4076,6 +4487,7 @@ const propertyConfig = {
     "text-shadow": {
         "type": "x",
         "title": "text-shadow",
+        "docLink": "text-shadow",
         "list": [
             "text-shadow-2xs",
             "text-shadow-xs",
@@ -4337,6 +4749,7 @@ const propertyConfig = {
     "opacity": {
         "type": "x",
         "title": "opacity",
+        "docLink": "opacity",
         "list": [
             "backdrop-opacity-<number>",
             "backdrop-opacity-(<custom-property>)",
@@ -4346,6 +4759,7 @@ const propertyConfig = {
     "mix-blend-mode": {
         "type": "x",
         "title": "mix-blend-mode",
+        "docLink": "mix-blend-mode",
         "list": [
             "mix-blend-normal",
             "mix-blend-multiply",
@@ -4368,6 +4782,7 @@ const propertyConfig = {
     "background-blend-mode": {
         "type": "x",
         "title": "background-blend-mode",
+        "docLink": "background-blend-mode",
         "list": [
             "bg-blend-normal",
             "bg-blend-multiply",
@@ -4390,6 +4805,7 @@ const propertyConfig = {
     "mask-clip": {
         "type": "x",
         "title": "mask-clip",
+        "docLink": "mask-clip",
         "list": [
             "mask-clip-border",
             "mask-clip-padding",
@@ -4403,6 +4819,7 @@ const propertyConfig = {
     "mask-composite": {
         "type": "x",
         "title": "mask-composite",
+        "docLink": "mask-composite",
         "list": [
             "mask-add",
             "mask-subtract",
@@ -4413,6 +4830,7 @@ const propertyConfig = {
     "mask-image": {
         "type": "x",
         "title": "mask-image",
+        "docLink": "mask-image",
         "list": [
             "-mask-conic-<number>",
             "-mask-linear-<number>",
@@ -4534,6 +4952,7 @@ const propertyConfig = {
     "mask-mode": {
         "type": "x",
         "title": "mask-mode",
+        "docLink": "mask-mode",
         "list": [
             "mask-alpha",
             "mask-luminance",
@@ -4543,6 +4962,7 @@ const propertyConfig = {
     "mask-origin": {
         "type": "x",
         "title": "mask-origin",
+        "docLink": "mask-origin",
         "list": [
             "mask-origin-border",
             "mask-origin-padding",
@@ -4555,6 +4975,7 @@ const propertyConfig = {
     "mask-position": {
         "type": "x",
         "title": "mask-position",
+        "docLink": "mask-position",
         "list": [
             "mask-top-left",
             "mask-top",
@@ -4572,6 +4993,7 @@ const propertyConfig = {
     "mask-repeat": {
         "type": "x",
         "title": "mask-repeat",
+        "docLink": "mask-repeat",
         "list": [
             "mask-repeat",
             "mask-no-repeat",
@@ -4584,6 +5006,7 @@ const propertyConfig = {
     "mask-size": {
         "type": "x",
         "title": "mask-size",
+        "docLink": "mask-size",
         "list": [
             "mask-auto",
             "mask-cover",
@@ -4595,11 +5018,13 @@ const propertyConfig = {
     "FILTERS": {
         "type": "h",
         "title": "FILTERS",
+        "docLink": "FILTERS",
         "list": []
     },
     "mask-type": {
         "type": "x",
         "title": "mask-type",
+        "docLink": "mask-type",
         "list": [
             "mask-type-alpha",
             "mask-type-luminance"
@@ -4608,11 +5033,13 @@ const propertyConfig = {
     "filter": {
         "type": "x",
         "title": "filter",
+        "docLink": "filter",
         "list": []
     },
     "blur": {
         "type": "x",
         "title": "blur",
+        "docLink": "blur",
         "list": [
             "backdrop-blur-0",
             "backdrop-blur-none",
@@ -4628,6 +5055,7 @@ const propertyConfig = {
     "brightness": {
         "type": "x",
         "title": "brightness",
+        "docLink": "brightness",
         "list": [
             "backdrop-brightness-0",
             "backdrop-brightness-50",
@@ -4645,6 +5073,7 @@ const propertyConfig = {
     "contrast": {
         "type": "x",
         "title": "contrast",
+        "docLink": "contrast",
         "list": [
             "backdrop-contrast-0",
             "backdrop-contrast-50",
@@ -4658,6 +5087,7 @@ const propertyConfig = {
     "drop-shadow": {
         "type": "x",
         "title": "drop-shadow",
+        "docLink": "drop-shadow",
         "list": [
             "drop-shadow-sm",
             "drop-shadow",
@@ -4671,6 +5101,7 @@ const propertyConfig = {
     "grayscale": {
         "type": "x",
         "title": "grayscale",
+        "docLink": "grayscale",
         "list": [
             "backdrop-grayscale-0",
             "backdrop-grayscale"
@@ -4679,6 +5110,7 @@ const propertyConfig = {
     "hue-rotate": {
         "type": "x",
         "title": "hue-rotate",
+        "docLink": "hue-rotate",
         "list": [
             "backdrop-hue-rotate-0",
             "backdrop-hue-rotate-15",
@@ -4696,6 +5128,7 @@ const propertyConfig = {
     "invert": {
         "type": "x",
         "title": "invert",
+        "docLink": "invert",
         "list": [
             "backdrop-invert-0",
             "backdrop-invert"
@@ -4704,6 +5137,7 @@ const propertyConfig = {
     "saturate": {
         "type": "x",
         "title": "saturate",
+        "docLink": "saturate",
         "list": [
             "backdrop-saturate-<number>",
             "backdrop-saturate-(<custom-property>)",
@@ -4713,6 +5147,7 @@ const propertyConfig = {
     "sepia": {
         "type": "x",
         "title": "sepia",
+        "docLink": "sepia",
         "list": [
             "backdrop-sepia",
             "backdrop-sepia-<number>",
@@ -4723,6 +5158,7 @@ const propertyConfig = {
     "backdrop-filter": {
         "type": "x",
         "title": "backdrop-filter",
+        "docLink": "backdrop-filter",
         "list": [
             "backdrop-filter",
             "backdrop-filter-none"
@@ -4731,11 +5167,13 @@ const propertyConfig = {
     "TABLES": {
         "type": "h",
         "title": "TABLES",
+        "docLink": "TABLES",
         "list": []
     },
     "border-collapse": {
         "type": "x",
         "title": "border-collapse",
+        "docLink": "border-collapse",
         "list": [
             "border-collapse",
             "border-separate"
@@ -4744,6 +5182,7 @@ const propertyConfig = {
     "border-spacing": {
         "type": "x",
         "title": "border-spacing",
+        "docLink": "border-spacing",
         "list": [
             "border-spacing-0",
             "border-spacing-1",
@@ -4776,7 +5215,14 @@ const propertyConfig = {
             "border-spacing-80",
             "border-spacing-96",
             "border-spacing-(<custom-property>)",
-            "border-spacing-[<value>]",
+            "border-spacing-[<value>]"
+        ]
+    },
+    "border-spacing-x": {
+        "type": "x",
+        "title": "border-spacing-x",
+        "docLink": "border-spacing",
+        "list": [
             "border-spacing-x-0",
             "border-spacing-x-1",
             "border-spacing-x-2",
@@ -4808,7 +5254,14 @@ const propertyConfig = {
             "border-spacing-x-80",
             "border-spacing-x-96",
             "border-spacing-x-(<custom-property>)",
-            "border-spacing-x-[<value>]",
+            "border-spacing-x-[<value>]"
+        ]
+    },
+    "border-spacing-y": {
+        "type": "x",
+        "title": "border-spacing-y",
+        "docLink": "border-spacing",
+        "list": [
             "border-spacing-y-0",
             "border-spacing-y-1",
             "border-spacing-y-2",
@@ -4846,6 +5299,7 @@ const propertyConfig = {
     "table-layout": {
         "type": "x",
         "title": "table-layout",
+        "docLink": "table-layout",
         "list": [
             "table-auto",
             "table-fixed"
@@ -4854,11 +5308,13 @@ const propertyConfig = {
     "TRANSITIONS & ANIMATION": {
         "type": "h",
         "title": "TRANSITIONS & ANIMATION",
+        "docLink": "TRANSITIONS & ANIMATION",
         "list": []
     },
     "caption-side": {
         "type": "x",
         "title": "caption-side",
+        "docLink": "caption-side",
         "list": [
             "caption-top",
             "caption-bottom"
@@ -4867,6 +5323,7 @@ const propertyConfig = {
     "transition-property": {
         "type": "x",
         "title": "transition-property",
+        "docLink": "transition-property",
         "list": [
             "transition",
             "transition-none",
@@ -4880,6 +5337,7 @@ const propertyConfig = {
     "transition-behavior": {
         "type": "x",
         "title": "transition-behavior",
+        "docLink": "transition-behavior",
         "list": [
             "transition-normal",
             "transition-discrete"
@@ -4888,6 +5346,7 @@ const propertyConfig = {
     "transition-duration": {
         "type": "x",
         "title": "transition-duration",
+        "docLink": "transition-duration",
         "list": [
             "duration-<number>",
             "duration-initial",
@@ -4898,6 +5357,7 @@ const propertyConfig = {
     "transition-timing-function": {
         "type": "x",
         "title": "transition-timing-function",
+        "docLink": "transition-timing-function",
         "list": [
             "ease-linear",
             "ease-in",
@@ -4911,6 +5371,7 @@ const propertyConfig = {
     "transition-delay": {
         "type": "x",
         "title": "transition-delay",
+        "docLink": "transition-delay",
         "list": [
             "delay-<number>",
             "delay-(<custom-property>)",
@@ -4920,11 +5381,13 @@ const propertyConfig = {
     "TRANSFORMS": {
         "type": "h",
         "title": "TRANSFORMS",
+        "docLink": "TRANSFORMS",
         "list": []
     },
     "animation": {
         "type": "x",
         "title": "animation",
+        "docLink": "animation",
         "list": [
             "animate-none",
             "animate-spin",
@@ -4936,6 +5399,7 @@ const propertyConfig = {
     "backface-visibility": {
         "type": "x",
         "title": "backface-visibility",
+        "docLink": "backface-visibility",
         "list": [
             "backface-hidden",
             "backface-visible"
@@ -4944,6 +5408,7 @@ const propertyConfig = {
     "perspective": {
         "type": "x",
         "title": "perspective",
+        "docLink": "perspective",
         "list": [
             "perspective-dramatic",
             "perspective-near",
@@ -4958,6 +5423,7 @@ const propertyConfig = {
     "perspective-origin": {
         "type": "x",
         "title": "perspective-origin",
+        "docLink": "perspective-origin",
         "list": [
             "perspective-origin-center",
             "perspective-origin-top",
@@ -4975,6 +5441,7 @@ const propertyConfig = {
     "rotate": {
         "type": "x",
         "title": "rotate",
+        "docLink": "rotate",
         "list": [
             "rotate-0",
             "rotate-1",
@@ -4993,6 +5460,7 @@ const propertyConfig = {
     "scale": {
         "type": "x",
         "title": "scale",
+        "docLink": "scale",
         "list": [
             "scale-0",
             "scale-50",
@@ -5003,7 +5471,14 @@ const propertyConfig = {
             "scale-105",
             "scale-110",
             "scale-125",
-            "scale-150",
+            "scale-150"
+        ]
+    },
+    "scale-x": {
+        "type": "x",
+        "title": "scale-x",
+        "docLink": "scale",
+        "list": [
             "scale-x-0",
             "scale-x-50",
             "scale-x-75",
@@ -5013,7 +5488,14 @@ const propertyConfig = {
             "scale-x-105",
             "scale-x-110",
             "scale-x-125",
-            "scale-x-150",
+            "scale-x-150"
+        ]
+    },
+    "scale-y": {
+        "type": "x",
+        "title": "scale-y",
+        "docLink": "scale",
+        "list": [
             "scale-y-0",
             "scale-y-50",
             "scale-y-75",
@@ -5026,27 +5508,49 @@ const propertyConfig = {
             "scale-y-150"
         ]
     },
-    "skew": {
+    "skew-x": {
         "type": "x",
-        "title": "skew",
+        "title": "skew-x",
+        "docLink": "skew",
         "list": [
             "skew-x-0",
             "skew-x-1",
             "skew-x-2",
             "skew-x-3",
             "skew-x-6",
-            "skew-x-12",
+            "skew-x-12"
+        ]
+    },
+    "-skew-x": {
+        "type": "x",
+        "title": "-skew-x",
+        "docLink": "skew",
+        "list": [
             "-skew-x-12",
             "-skew-x-6",
             "-skew-x-3",
             "-skew-x-2",
-            "-skew-x-1",
+            "-skew-x-1"
+        ]
+    },
+    "skew-y": {
+        "type": "x",
+        "title": "skew-y",
+        "docLink": "skew",
+        "list": [
             "skew-y-0",
             "skew-y-1",
             "skew-y-2",
             "skew-y-3",
             "skew-y-6",
-            "skew-y-12",
+            "skew-y-12"
+        ]
+    },
+    "-skew-y": {
+        "type": "x",
+        "title": "-skew-y",
+        "docLink": "skew",
+        "list": [
             "-skew-y-12",
             "-skew-y-6",
             "-skew-y-3",
@@ -5057,6 +5561,7 @@ const propertyConfig = {
     "transform": {
         "type": "x",
         "title": "transform",
+        "docLink": "transform",
         "list": [
             "transform",
             "transform-gpu",
@@ -5066,6 +5571,7 @@ const propertyConfig = {
     "transform-origin": {
         "type": "x",
         "title": "transform-origin",
+        "docLink": "transform-origin",
         "list": [
             "origin-center",
             "origin-top",
@@ -5081,6 +5587,7 @@ const propertyConfig = {
     "transform-style": {
         "type": "x",
         "title": "transform-style",
+        "docLink": "transform-style",
         "list": [
             "transform-3d",
             "transform-flat"
@@ -5089,11 +5596,13 @@ const propertyConfig = {
     "INTERACTIVITY": {
         "type": "h",
         "title": "INTERACTIVITY",
+        "docLink": "INTERACTIVITY",
         "list": []
     },
-    "translate": {
+    "translate-x": {
         "type": "x",
-        "title": "translate",
+        "title": "translate-x",
+        "docLink": "translate",
         "list": [
             "translate-x-0",
             "translate-x-1",
@@ -5130,6 +5639,20 @@ const propertyConfig = {
             "translate-x-1.5",
             "translate-x-2.5",
             "translate-x-3.5",
+            "translate-x-1/2",
+            "translate-x-1/3",
+            "translate-x-2/3",
+            "translate-x-1/4",
+            "translate-x-2/4",
+            "translate-x-3/4",
+            "translate-x-full"
+        ]
+    },
+    "-translate-x": {
+        "type": "x",
+        "title": "-translate-x",
+        "docLink": "translate",
+        "list": [
             "-translate-x-0",
             "-translate-x-1",
             "-translate-x-2",
@@ -5165,20 +5688,20 @@ const propertyConfig = {
             "-translate-x-1.5",
             "-translate-x-2.5",
             "-translate-x-3.5",
-            "translate-x-1/2",
-            "translate-x-1/3",
-            "translate-x-2/3",
-            "translate-x-1/4",
-            "translate-x-2/4",
-            "translate-x-3/4",
-            "translate-x-full",
             "-translate-x-1/2",
             "-translate-x-1/3",
             "-translate-x-2/3",
             "-translate-x-1/4",
             "-translate-x-2/4",
             "-translate-x-3/4",
-            "-translate-x-full",
+            "-translate-x-full"
+        ]
+    },
+    "translate-y": {
+        "type": "x",
+        "title": "translate-y",
+        "docLink": "translate",
+        "list": [
             "translate-y-0",
             "translate-y-1",
             "translate-y-2",
@@ -5214,6 +5737,20 @@ const propertyConfig = {
             "translate-y-1.5",
             "translate-y-2.5",
             "translate-y-3.5",
+            "translate-y-1/2",
+            "translate-y-1/3",
+            "translate-y-2/3",
+            "translate-y-1/4",
+            "translate-y-2/4",
+            "translate-y-3/4",
+            "translate-y-full"
+        ]
+    },
+    "-translate-y": {
+        "type": "x",
+        "title": "-translate-y",
+        "docLink": "translate",
+        "list": [
             "-translate-y-0",
             "-translate-y-1",
             "-translate-y-2",
@@ -5249,13 +5786,6 @@ const propertyConfig = {
             "-translate-y-1.5",
             "-translate-y-2.5",
             "-translate-y-3.5",
-            "translate-y-1/2",
-            "translate-y-1/3",
-            "translate-y-2/3",
-            "translate-y-1/4",
-            "translate-y-2/4",
-            "translate-y-3/4",
-            "translate-y-full",
             "-translate-y-1/2",
             "-translate-y-1/3",
             "-translate-y-2/3",
@@ -5268,6 +5798,7 @@ const propertyConfig = {
     "accent-color": {
         "type": "x",
         "title": "accent-color",
+        "docLink": "accent-color",
         "list": [
             "accent-inherit",
             "accent-current",
@@ -5523,6 +6054,7 @@ const propertyConfig = {
     "appearance": {
         "type": "x",
         "title": "appearance",
+        "docLink": "appearance",
         "list": [
             "appearance-none",
             "appearance-auto"
@@ -5531,6 +6063,7 @@ const propertyConfig = {
     "caret-color": {
         "type": "x",
         "title": "caret-color",
+        "docLink": "caret-color",
         "list": [
             "caret-inherit",
             "caret-current",
@@ -5786,6 +6319,7 @@ const propertyConfig = {
     "color-scheme": {
         "type": "x",
         "title": "color-scheme",
+        "docLink": "color-scheme",
         "list": [
             "scheme-normal",
             "scheme-dark",
@@ -5798,6 +6332,7 @@ const propertyConfig = {
     "cursor": {
         "type": "x",
         "title": "cursor",
+        "docLink": "cursor",
         "list": [
             "cursor-auto",
             "cursor-default",
@@ -5842,6 +6377,7 @@ const propertyConfig = {
     "field-sizing": {
         "type": "x",
         "title": "field-sizing",
+        "docLink": "field-sizing",
         "list": [
             "field-sizing-fixed",
             "field-sizing-content"
@@ -5850,6 +6386,7 @@ const propertyConfig = {
     "pointer-events": {
         "type": "x",
         "title": "pointer-events",
+        "docLink": "pointer-events",
         "list": [
             "pointer-events-auto",
             "pointer-events-none"
@@ -5858,6 +6395,7 @@ const propertyConfig = {
     "resize": {
         "type": "x",
         "title": "resize",
+        "docLink": "resize",
         "list": [
             "resize-none",
             "resize",
@@ -5868,6 +6406,7 @@ const propertyConfig = {
     "scroll-behavior": {
         "type": "x",
         "title": "scroll-behavior",
+        "docLink": "scroll-behavior",
         "list": [
             "scroll-auto",
             "scroll-smooth"
@@ -5876,6 +6415,7 @@ const propertyConfig = {
     "scroll-margin": {
         "type": "x",
         "title": "scroll-margin",
+        "docLink": "scroll-margin",
         "list": [
             "scroll-m-<number>",
             "-scroll-m-<number>",
@@ -5918,6 +6458,7 @@ const propertyConfig = {
     "scroll-padding": {
         "type": "x",
         "title": "scroll-padding",
+        "docLink": "scroll-padding",
         "list": [
             "scroll-p-<number>",
             "-scroll-p-<number>",
@@ -5960,6 +6501,7 @@ const propertyConfig = {
     "scroll-snap-align": {
         "type": "x",
         "title": "scroll-snap-align",
+        "docLink": "scroll-snap-align",
         "list": [
             "snap-start",
             "snap-end",
@@ -5970,6 +6512,7 @@ const propertyConfig = {
     "scroll-snap-stop": {
         "type": "x",
         "title": "scroll-snap-stop",
+        "docLink": "scroll-snap-stop",
         "list": [
             "snap-normal",
             "snap-always"
@@ -5978,6 +6521,7 @@ const propertyConfig = {
     "scroll-snap-type": {
         "type": "x",
         "title": "scroll-snap-type",
+        "docLink": "scroll-snap-type",
         "list": [
             "snap-none",
             "snap-x",
@@ -5990,6 +6534,7 @@ const propertyConfig = {
     "touch-action": {
         "type": "x",
         "title": "touch-action",
+        "docLink": "touch-action",
         "list": [
             "touch-auto",
             "touch-none",
@@ -6006,6 +6551,7 @@ const propertyConfig = {
     "user-select": {
         "type": "x",
         "title": "user-select",
+        "docLink": "user-select",
         "list": [
             "select-none",
             "select-text",
